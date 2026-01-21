@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" name="Email" required id="email">
+
+        <br>
+        <br>
+
+         <label for="pass">Password</label>
+        <input type="password" placeholder="Password" name="Password" required id="pass">
+
+      <br>
+       <p>Select Gender</p>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+
+      <br>
+
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+
+      <br>
+      <input type="radio" id="others" name="gender" value="others">
+      <label for="other">others</label>
+      <br>
+
+
+      <p>Select your favourite dish</p>
+
+     <input type="checkbox" name="Dish" value="Pani Puri" id="dish1">
+     <label for="dish1">Pani Puri</label>
+     <br>
+
+     <input type="checkbox" name="Dish" value="Vada Pav" id="dish2">
+     <label for="dish2">Vada Pav</label>
+     <br>
+
+     <input type="checkbox" name="Dish" value="Dosa" id="dish3">
+     <label for="dish3">Dosa</label>
+     <br>
+
+        
+     <select name="country">
+        <option value="In">India</option>
+          <option value="Ch">China</option>     By default option take value as content Like if iused <option>India</option> it takes value="India" by default
+            <option value="Jp">Japan</option>
+     </select>
+
+       
+     <br>
+     <br>
+
+
+        <input type="hidden" name="City" value="Pandharpur">  this info is not taken from user but rather developer find this info by using entered data or location,etc. The data in hdden is sent to server
+
+      <br> 
+        <button>Sign in</button>
+    </form>
+</body>
+</html>
