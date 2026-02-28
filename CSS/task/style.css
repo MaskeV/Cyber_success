@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+  
+    background-color: red;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: rotating-box 2s linear  infinite ;
+}
+ @keyframes rotating-box {
+    0%{
+        rotate: 0deg;
+        
+    }50%{
+        background-color: rgb(114, 250, 134);
+    }100%{
+        rotate: 360deg;
+        background-color: rgb(146, 114, 250);
+    }100%{
+    }
+ }
+

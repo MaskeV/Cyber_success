@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 20px;
+}
+
+.ball1{
+    width: 5%;
+    aspect-ratio: 1/1 ;
+    border-radius: 50%;
+    background-color: red;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: bouncing-ball 1s linear 0.3s alternate ;
+}
+
+.ball2{
+    width: 5%;
+    aspect-ratio: 1/1 ;
+    border-radius: 50%;
+    background-color: rgb(0, 4, 255); 
+    animation: bouncing-ball 1s linear 0.6s   ;
+}
+.ball3{
+    width: 5%;
+    aspect-ratio: 1/1 ;
+    border-radius: 50%;
+    background-color: rgb(28, 199, 91);
+    animation: bouncing-ball 1s linear 0.9s infinite alternate ;
+}
+.ball4{
+    width: 5%;
+    aspect-ratio: 1/1 ;
+    border-radius: 50%;
+    background-color: #fffb00;
+    animation: bouncing-ball 1s linear 1.2s infinite alternate ;
+}
+.ball5{
+    width: 5%;
+    aspect-ratio: 1/1 ;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 200);
+    animation: bouncing-ball 1s linear 1.5s infinite alternate ;
+}
+
+@keyframes bouncing-ball{
+    from{
+        transform: translatey(0px);
+    }to{
+        transform: translatey(-20px);
+    }
+}

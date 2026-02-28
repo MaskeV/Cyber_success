@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position:relative;
+    padding: 20px;
+}
+
+label{
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    transition: all 300ms ease;
+
+}
+input{
+    
+    height: 30px;
+  
+}
+
+input:focus + label{
+  top:20px;
+  font-size: 12px;
+  
+}
