@@ -37,7 +37,7 @@ list.splice()  // It wll not do anything to array
 
 list.splice(1)  // it will delete all elments from start index
 
-list.splice(2,"Item")  // it will not affect array as 
+list.splice(2,"Item")  // it will not affect array as as it sees string as count so it is considered 0 and it will not affect array
 
 Array.isArray(arr)  // op will be true it returns if given object is array or not
 
