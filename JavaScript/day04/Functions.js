@@ -1,6 +1,7 @@
 //Function - Reusable block of code used to perform specific task. - A block of code used to perform specific task ny taking input if necessary 
 //Types of functions : Userdefined vs Predefined
 
+
 //predefined
 //eg . 
 

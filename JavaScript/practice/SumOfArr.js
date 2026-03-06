@@ -65,3 +65,20 @@ function secodLargest(nums){
 
 
 console.log(secodLargest([1,2,3,8,9,5]));
+
+
+function sort(nums){
+  for(let i=0;i<nums.length;i++){
+    for(let j=0;j<nums.length-i;j++){
+        if(nums[j]>nums[j+1]){
+            let temp=nums[j];
+            nums[j]=nums[j+1];
+            nums[j+1]=temp;
+        }
+    }
+  }
+  return nums;
+}
+
+
+console.log(sort([2,3,4,1,0,6]));
