@@ -1,0 +1,68 @@
+npm - node package Manager  - used to install and maintain packages
+npx - node package executer - Used to run installed package (used by react to run packages)
+
+There are two commands to create react projects
+
+1) npx create-react-app first-projects     - This way is depricated
+2) npm create vite@latest basic_project   - vite is tool used to create react project. Using vite we can create project using other frontend frameworks like angular, vue.
+
+ // React folder Structure
+
+ public - This folder contains all static files i.e assets like image,videos, svg,etc
+ src - This folder contains all codes
+ .gitignore - It contains files or folders which are not pushed on github
+ .eslint.config.js - It forces some rules so development is consistent throughout. Defines which rules are enabled and at what error level. for eg make sure semicolon is compulsary and gives error if not used
+ 
+ package.json - The package.json file is the core configuration file for Node.js projects and npm packages, serving as a manifest that stores essential metadata, defines project dependencies, and specifies scripts for automating tasks. 
+     scripts	An object containing script names and the corresponding commands to run them.
+     dependencies	An object listing packages required for the application to run in production.
+     devDependencies	An object listing packages required only during the development and testing phases.
+
+
+
+index.html has root div and calls main.js which calls App.js which reders root elements
+
+// component
+1)React components are the fundamental building blocks of a React user interface (UI). They are independent, reusable pieces of code that function like JavaScript functions, accepting inputs called "props" and returning React elements (typically using JSX) that describe what should appear on the screen.
+
+2)Name of component (i.e Function) should always be in pascal case or it will cause error. Pascal - i.e first letter of first and all consecutive words must be ca[ital]
+
+3) Component return jsx or html
+
+4) Component can return only single parent element (parent element can have multiple elements wrapped in single parent div)
+
+jsx - In jsx file we can write both js and html together. Full form of jsx id=s javascript xml.
+
+5) In react each and every opening tag must have closing tag  like we cant use <br> like  we do in html we have to use <br> </br>
+
+6) for specifying class of elements we use className in jsx because class is already defined in js 
+
+7) In jsx we can access js inside html using {}. We can access variables, arrays, constants. We cant directly aaceess object ussing {} but we can access its properties using . operator
+
+
+//props :
+In React, props (short for "properties") are a mechanism for passing data from a parent component to a child component. They are a fundamental concept that makes components reusable, allowing them to display different content or behave differently based on the data they receive. 
+
+A parent component in React is a component that renders, manages, and passes data (via props) to another component, known as the child component, forming a hierarchical structure. Parents communicate down to children using props, while children can trigger updates in the parent by calling callback functions passed down to them.
+
+
+//Conditional Rendering
+
+There are two ways used for conditional Rendering
+
+If we have to use conditional renderig   inside return 
+1) Ternary operator
+2) && and operator   - It uses short circuit
+
+If we have to use conditional rendering outside return we use
+1) If elese
+2)Switch Case
+
+
+//Array rendering 
+
+
+//There are two ways it can lead to infinite loop 
+
+
+
