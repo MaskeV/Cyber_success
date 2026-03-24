@@ -14,7 +14,6 @@ export function SearchInArray(){
 
     }
 
-
     return(
         <>
          <input type="text" placeholder="search name" onChange={handleInputChange} />
